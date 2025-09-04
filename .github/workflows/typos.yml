@@ -25,9 +25,9 @@ jobs:
     - name: Create pull request
       uses: peter-evans/create-pull-request@v5
       with:
-        token: ${{ secrets.GIT_PAT }}
+        # token: ${{ secrets.GIT_PAT }}
         commit-message: "Fix typos detected by typos GitHub action"
-        # author: ${{ secrets.GIT_USER_NAME }} <${{ secrets.GIT_USER_NAME }}@users.noreply.github.com>
+        author: ${{ secrets.GIT_USER_NAME }} <${{ secrets.GIT_USER_NAME }}@users.noreply.github.com>
         signoff: false
         branch: typos-fix
         delete-branch: true
@@ -36,4 +36,4 @@ jobs:
           Fixed typos
            - This pull request fixes typos detected by the typo-check GitHub action.
         labels: typo
-        assignees: IMXNOOBX
+        assignees: brunozilio
