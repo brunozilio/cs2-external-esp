@@ -5,9 +5,9 @@ import re
 import os
 
 urls = {
-    "commits": "https://api.github.com/repos/a2x/cs2-dumper/commits",
-    "offsets": "https://raw.githubusercontent.com/a2x/cs2-dumper/main/output/offsets.json",
-    "client_dll": "https://github.com/a2x/cs2-dumper/raw/refs/heads/main/output/client_dll.json",
+    "commits": "https://api.github.com/repos/pompompur1nn/cs2-dumper/commits",
+    "offsets": "https://raw.githubusercontent.com/pompompur1nn/cs2-dumper/main/output/offsets.json",
+    "client_dll": "https://github.com/pompompur1nn/cs2-dumper/raw/refs/heads/main/output/client_dll.json",
 }
 
 def get_build_number():
